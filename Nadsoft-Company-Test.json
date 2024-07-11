@@ -1,0 +1,166 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Nagsoft-Company Test",
+    "collectionId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+    "dateExported": "2024-07-10T17:12:05.094Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "afd78bba-92d6-4c32-8275-53f0357f564b",
+            "name": "Marks",
+            "containerId": "",
+            "created": "2024-07-10T12:16:49.319Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "0b92688e-da49-423f-8085-5a1bbeba17ef",
+            "name": "student",
+            "containerId": "",
+            "created": "2024-07-10T12:17:17.057Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "2ba41e28-d04d-4b49-a804-2e3de29acf76",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "0b92688e-da49-423f-8085-5a1bbeba17ef",
+            "name": "Add student data",
+            "url": "http://localhost:3000/api/student/students",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-10T12:05:42.314Z",
+            "modified": "2024-07-10T17:03:21.077Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"first_name\": \"Abhijit\",\n      \"last_name\": \"Aundhkar\",\n      \"age\": 76,\n      \"email\": \"aa@gmail.com\"\n    }",
+                "form": []
+            }
+        },
+        {
+            "_id": "82fe916e-fe5d-4260-9650-6891887e4159",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "0b92688e-da49-423f-8085-5a1bbeba17ef",
+            "name": "get All student",
+            "url": "http://localhost:3000/api/student/getStudents",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-10T12:07:11.182Z",
+            "modified": "2024-07-10T12:07:17.334Z",
+            "headers": []
+        },
+        {
+            "_id": "2712584c-b16c-4ba3-bd63-2c96b97a1c8d",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "0b92688e-da49-423f-8085-5a1bbeba17ef",
+            "name": "Update student data",
+            "url": "http://localhost:3000/api/student/updatesStudents/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-07-10T12:07:32.447Z",
+            "modified": "2024-07-10T17:03:45.646Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"first_name\": \"updates\",\n      \"last_name\": \"Aundhkar\",\n      \"age\": 22,\n      \"email\": \"z@gmail.com\"\n    }",
+                "form": []
+            }
+        },
+        {
+            "_id": "87c62bcd-e2ba-490d-92f2-8e5b002392ab",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "0b92688e-da49-423f-8085-5a1bbeba17ef",
+            "name": "get student by student and mark id",
+            "url": "http://localhost:3000/api/student/getStudents/6",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-07-10T12:09:18.318Z",
+            "modified": "2024-07-10T12:25:35.031Z",
+            "headers": []
+        },
+        {
+            "_id": "34258fa1-8827-4478-ba78-2d9d6887042a",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "0b92688e-da49-423f-8085-5a1bbeba17ef",
+            "name": "Delete student data by id",
+            "url": "http://localhost:3000/api/student/deleteStudents/4",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-07-10T12:16:56.353Z",
+            "modified": "2024-07-10T17:05:34.864Z",
+            "headers": []
+        },
+        {
+            "_id": "170eb053-90d3-4e4c-9ecc-3e620fadcc8a",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "afd78bba-92d6-4c32-8275-53f0357f564b",
+            "name": "Add Marks to student",
+            "url": "http://localhost:3000/api/marks/2",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-07-10T12:20:54.454Z",
+            "modified": "2024-07-10T17:02:13.124Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"subject\":\"english\",\n  \"mark\":55\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "afdb6ab8-cf00-4ed1-a8bb-1038bd9eca85",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "afd78bba-92d6-4c32-8275-53f0357f564b",
+            "name": "Get Marks by id",
+            "url": "http://localhost:3000/api/marks/2",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-07-10T12:26:47.555Z",
+            "modified": "2024-07-10T16:44:56.025Z",
+            "headers": []
+        },
+        {
+            "_id": "f2fdc037-9494-41c0-9658-9cb9927067a8",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "afd78bba-92d6-4c32-8275-53f0357f564b",
+            "name": "Update marks of students",
+            "url": "http://localhost:3000/api/marks/2/8",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-07-10T12:28:51.113Z",
+            "modified": "2024-07-10T17:02:34.208Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"subject\": \"updateSUB\",\n    \"mark\": 46\n  }",
+                "form": []
+            }
+        },
+        {
+            "_id": "954c4316-3d8f-43d0-9b94-928541fec49b",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "afd78bba-92d6-4c32-8275-53f0357f564b",
+            "name": "delete marks by id",
+            "url": "http://localhost:3000/api/marks/2/8",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2024-07-10T12:32:13.819Z",
+            "modified": "2024-07-10T17:02:48.872Z",
+            "headers": []
+        },
+        {
+            "_id": "1dd5e4a7-bc57-41d8-ba4d-784dcd0d5e9a",
+            "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
+            "containerId": "afd78bba-92d6-4c32-8275-53f0357f564b",
+            "name": "Get All Marks",
+            "url": "http://localhost:3000/api/marks/",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-07-10T16:48:31.415Z",
+            "modified": "2024-07-10T17:00:00.225Z",
+            "headers": []
+        }
+    ],
+    "ref": "cKp6CZ_X0XinGL7PvHgKl_mZyOuuePEDAOEUhBlhYv9aYtI-sRf0D0vCpazHnuyxUqTwgPK4-oLcz0ojpqLQRQ"
+}
