@@ -9,6 +9,7 @@ Attached Thunder Client API Test Collection: Nadsoft-Company-Test.json
 Add your PostgreSQL database configuration to the .env file.
 
 Backend .env File Example
+
 DB_HOST=your_host
 DB_USER=your_user
 DB_PASSWORD=your_password
@@ -20,12 +21,8 @@ Navigate to the backend directory:
 # Backend
 
 cd backend
-Install dependencies:
-
-npm install
-Start the application:
-
-npm start
+Install dependencies:npm install
+Start the application:npm start
 All logic related to controllers, routes, and the database is in the src folder.
 
 # Database Script
@@ -39,10 +36,6 @@ cd src/model/script.js
 Navigate to the frontend directory:
 
 cd frontend
-Install dependencies:
-
-npm install
-Start the application:
-
-npm run start
+Install dependencies:npm install
+Start the application:npm run start
 Components related to student data and the form are located in the src/components directory.
