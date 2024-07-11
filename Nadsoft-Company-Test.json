@@ -43,7 +43,7 @@
             "colId": "603f4dbb-e3fb-4b8b-9c36-4009cb3b6075",
             "containerId": "0b92688e-da49-423f-8085-5a1bbeba17ef",
             "name": "get All student",
-            "url": "http://localhost:3000/api/student/getStudents",
+            "url": "http://localhost:3000/api/student/getStudents?page=1&limit=10",
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-07-10T12:07:11.182Z",
