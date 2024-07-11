@@ -1,22 +1,48 @@
-#machine_Test
+Machine Test
 
-# attached Thunder Client API Test Collection Nadsoft-Company-Test.json
+# API Test Collection
 
-# env file add you db postgres configuration
+Attached Thunder Client API Test Collection: Nadsoft-Company-Test.json
 
-backend->.env
+# Environment Configuration
 
-# backend
+Add your PostgreSQL database configuration to the .env file.
 
-start the application of backend
-cd backend ->npm i->npm start
-all logic in src folder related of controller routes and db
+Backend .env File Example
+DB_HOST=your_host
+DB_USER=your_user
+DB_PASSWORD=your_password
+DB_NAME=your_database
+DB_PORT=your_port
+Backend Setup
+Navigate to the backend directory:
 
-//database script automatically run when server is started
-script in cd src/model/script.js
+# Backend
 
-# frontend
+cd backend
+Install dependencies:
 
-start the application of frontend
-cd frontend=>->npm i->npm run start
-// components in src/components of student data and Form
+npm install
+Start the application:
+
+npm start
+All logic related to controllers, routes, and the database is in the src folder.
+
+# Database Script
+
+The database script automatically runs when the server starts. The script is located at:
+
+cd src/model/script.js
+
+# Frontend Setup
+
+Navigate to the frontend directory:
+
+cd frontend
+Install dependencies:
+
+npm install
+Start the application:
+
+npm run start
+Components related to student data and the form are located in the src/components directory.
