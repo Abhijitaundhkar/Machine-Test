@@ -2,7 +2,7 @@ Machine Test
 
 # API Test Collection
 
-Attached Thunder Client API Test Collection: Nadsoft-Company-Test.json
+Attached Thunder Client API Test Collection: Test.json
 
 # Environment Configuration
 
